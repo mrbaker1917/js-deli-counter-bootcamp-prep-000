@@ -19,7 +19,7 @@ function nowServing(array) {
 function currentLine(array) {
   let numNames = [];
   for (var i = 0; i < array.length; i++) {
-    
+    numNames.push(`${i + 1}. ${array[i]}`)
   }
-  return
+  return `The line `
 }
